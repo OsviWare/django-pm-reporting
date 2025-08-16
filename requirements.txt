@@ -1,0 +1,10 @@
+wfastcgi
+django
+mysqlclient
+pillow
+django-admin-interface
+django-crispy-forms
+xhtml2pdf
+weasyprint
+python-decouple
+django-import-export
