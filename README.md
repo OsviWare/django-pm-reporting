@@ -24,19 +24,48 @@ Las principales mejoras que introduce son:
 
 ## 📂 Estructura del proyecto
 
-```django-pm-demo/
-│── backend/
-│ ├── manage.py
-│ ├── requirements.txt
-│ ├── demo_project/
-│ │ ├── settings.py
-│ │ ├── urls.py
-│ │ └── wsgi.py
-│ └── pm_integration/
-│ ├── client.py
-│ ├── services.py
-│ └── views.py
-│
-│── README.md
-│── docker-compose.yml
-│── .env.example```
+```
+django-pm-demo/
+ ├── manage.py
+ ├── README.md
+ ├── .env
+ ├── docker-compose.yml
+ ├── Dockerfile
+ ├── requirements.txt
+ ├── core/
+ │ ├── settings.py
+ │ ├── urls.py
+ │ └── wsgi.py
+ └── Inicio/
+ │ ├── __init__.py
+ │ ├── admin.py
+ │ ├── apps.py
+ │ ├── models.py
+ │ ├── tests.py
+ │ ├── urls.py
+ │ ├── views.py
+ └── RRHH_CB/
+ │ ├── __init__.py
+ │ ├── admin.py
+ │ ├── apps.py
+ │ ├── forms.py
+ │ ├── models.py
+ │ ├── tests.py
+ │ ├── urls.py
+ │ ├── views.py
+ └── RRHH_LP/
+ │ ├── __init__.py
+ │ ├── admin.py
+ │ ├── apps.py
+ │ ├── forms.py
+ │ ├── models.py
+ │ ├── tests.py
+ │ ├── urls.py
+ │ ├── views.py
+ └── static/
+ └── templates/
+   ├── inicio/
+   ├── rrhh_cb/
+   ├── rrhh_lp/
+   ├── registration/
+   └──  base.html
