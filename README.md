@@ -9,7 +9,7 @@ El propósito de este desarrollo es ofrecer a los usuarios de negocio un sistema
 Las principales mejoras que introduce son:
 
 - 🔎 **Filtros de búsqueda avanzados** para acceder rápidamente a la información.
-- 📊 **Visualización Optimizada** datos presentados de forma clara y comprensible.
+- 📊 **Visualización Optimizada**, datos presentados de forma clara y comprensible.
 - 👥 **Control de accesos por grupos y sucursales**, asegurando que cada usuario solo vea la información que le corresponde.
 - 🖨️ **Exportación de casos a PDF** para impresión y archivo.
 - 🌐 **Interfaz web en Django** más amigable y adaptable a las necesidades de la empresa.
@@ -29,13 +29,16 @@ django-pm-demo/
  ├── manage.py
  ├── README.md
  ├── .env
+ ├── .venv
  ├── docker-compose.yml
  ├── Dockerfile
  ├── requirements.txt
+ |
  ├── core/
  │ ├── settings.py
  │ ├── urls.py
  │ └── wsgi.py
+ |
  └── Inicio/
  │ ├── __init__.py
  │ ├── admin.py
@@ -44,6 +47,7 @@ django-pm-demo/
  │ ├── tests.py
  │ ├── urls.py
  │ ├── views.py
+ |
  └── RRHH_CB/
  │ ├── __init__.py
  │ ├── admin.py
@@ -53,6 +57,7 @@ django-pm-demo/
  │ ├── tests.py
  │ ├── urls.py
  │ ├── views.py
+ |
  └── RRHH_LP/
  │ ├── __init__.py
  │ ├── admin.py
@@ -62,7 +67,9 @@ django-pm-demo/
  │ ├── tests.py
  │ ├── urls.py
  │ ├── views.py
+ |
  └── static/
+ |
  └── templates/
    ├── inicio/
    ├── rrhh_cb/
