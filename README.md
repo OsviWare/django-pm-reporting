@@ -1,1 +1,42 @@
 # Django + ProcessMaker Reports Demo
+
+Este proyecto es una integración de **Django** con **ProcessMaker Community Edition** con el objetivo de **mejorar y extender el módulo de reportes estándar** que ofrece ProcessMaker.
+
+## 🚀 Propósito del proyecto
+
+El propósito de este desarrollo es ofrecer a los usuarios de negocio un sistema de reportes más **flexible, claro y seguro**, superando las limitaciones de la versión comunitaria de ProcessMaker.  
+
+Las principales mejoras que introduce son:
+
+- 🔎 **Filtros de búsqueda avanzados** para acceder rápidamente a la información.
+- 📊 **Estructuración de datos más clara y comprensible** para el usuario final.
+- 👥 **Control de accesos por grupos y sucursales**, asegurando que cada usuario solo vea la información que le corresponde.
+- 🖨️ **Exportación de casos a PDF** para impresión y archivo.
+- 🌐 **Interfaz web en Django** más amigable y adaptable a las necesidades de la empresa.
+
+## ⚙️ Tecnologías utilizadas
+
+- **Backend:** Django 4.0.4
+- **Base de datos:** MySQL
+- **Integración:** Base de datos de ProcessMaker Community 3.2.3
+- **Infraestructura:** IIS  
+- **Utilidades:** xhtml2pdf, python-decouple 
+
+## 📂 Estructura del proyecto
+
+django-pm-demo/
+│── backend/
+│ ├── manage.py
+│ ├── requirements.txt
+│ ├── demo_project/
+│ │ ├── settings.py
+│ │ ├── urls.py
+│ │ └── wsgi.py
+│ └── pm_integration/
+│ ├── client.py
+│ ├── services.py
+│ └── views.py
+│
+│── README.md
+│── docker-compose.yml
+│── .env.example
